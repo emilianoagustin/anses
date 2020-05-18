@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Inclusion Digital</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+    <link rel="stylesheet" href="../estilos.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Bootstrap core -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Script Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $(document).on('click', '#btn_1, #btn_2', function(){
+      $(this).addClass("active").siblings().removeClass("active")
+    });
+    $(document).on('click','#btn_1', function(){
+      $("#btn_prv").addClass("disabled")
+    });
+    $(document).on('click','#btn_2', function(){
+      $("#btn_prv").removeClass("disabled")
+    });
+    $(document).on('click','#btn_2', function(){
+      $("#btn_nxt").addClass("disabled")
+    });
+    $(document).on('click','#btn_1', function(){
+      $("#btn_nxt").removeClass("disabled")
+    });
+    </script>
+  </head>
+
+  <body class="fondoweb1 img-fluid">
+        
+    <!-- HEADER -->
+    <div class="container-fluid">
+      <img src="../img/header.png" class="img-fluid">
+    </div>
+    <!-- /HEADER -->
+  
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand navbar-light mt-3" style="background-color: #e3f2fd;">
+        
+    <div class="mx-auto">
+    <ul class="navbar-nav mr-auto text-center">
+      <li class="nav-item active m-1">
+        <a class="nav-link btn  hvr-underline-reveal" href="../index.html">Inicio<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item m-1">
+        <a class="nav-link btn  hvr-underline-reveal" href="../Libros/indexlibros.html">Libros</a>
+      </li>
+      <li class="nav-item m-1">
+        <a class="nav-link btn  hvr-underline-reveal" href="../Tutoriales/indextutoriales.html">Tutoriales</a>
+      </li>
+      <li class="nav-item m-1">
+        <a class="nav-link btn  hvr-underline-reveal" href="../Videos/indexvideos.html">Videos</a>
+      </li>
+    </ul>
+    </div>
+    
+    </nav>
+    <!-- /NAV BAR -->
+
+    <!-- TITULO -->
+    <div class="container-fluid" id="top">
+     
+     <div class="row m-3 color3">
+      <div class="col">
+         <p class="h1 display-1 text-center">Libros</p> 
+      </div>   
+     </div> 
+
+    </div>
+    <!-- /TITULO -->
+
+    <!-- TABLA -->
+    <div class="container">
+    <table class="table text-center fondo-lista mt-5">
+    <thead class="fondo-lista">
+    <tr class="table-info">
+      <th scope="col">Autor</th>
+      <th scope="col">Titulo</th>
+      <th scope="col">Link</th>
+    </tr>
+    </thead>
+    <tbody class="fondo-lista">
+    <tr>
+      <td>Alas, Leopoldo.</td>
+      <td>La Regenta</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Alas Leopoldo.La Regenta.pdf" target="_blank">Leer</a></td>
+    </tr>      
+    <tr>
+      <td>Ambrogi,Arturo.</td>
+      <td>La siesta de los zopilotes</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Ambrogi Arturo.La siesta de los zopilotes.pdf" target="_blank">Leer</a></td>
+    </tr>
+    <tr>
+      <td>Anchieta, José de.</td>
+      <td>Carta da Campanhia(en portugués)</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Anchieta Jose de.Carta da Campanhia.pdf" target="_blank">Leer</a></td>
+    </tr>
+    <tr>
+      <td>Arlt, Roberto.</td>
+      <td>El Uguete Rabioso</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Arlt Roberto.El juguete rabioso.pdf" target="_blank">Leer</a></td>
+    </tr>
+    <tr>
+      <td>Assis, Machado.</td>
+      <td>Historias sem Data (en portugués)</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Assis Machado.Historias Sem Data(en portugues).pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Azara, Félix.</td>
+      <td>Correspondencia Oficial</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Azara Felix.Correspondencia Oficial.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Azara, Félix.</td>
+      <td>Diario de un Reconocimiento</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Azara Felix.Diario de un reconocimiento.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Baroja, Pío.</td>
+      <td>La Voz de la Conseja</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Baroja Pio.La voz de la conseja.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Baroja, Pío.</td>
+      <td>Zalacaín El Aventurero</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Baroja Pio.Zalacain El Aventurero.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Benavente, Jacinto.</td>
+      <td>Tres Comedias</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Benavente Jacinto.Tres Comedias.pdf" target="_blank"> Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Blasco Ibañez, Vicente.</td>
+      <td>Arroz y Tartana</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Blasco Ibanez Vicente.Arroz y tartana.pdf" target="_blank"> Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Blasco Ibañez, Vicente.</td>
+      <td>Los Argonautas</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Blasco Ibanez Vicente.Los argonautas.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Blasco Ibañez, Vicente.</td>
+      <td>Sangre y Arena</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Blasco Ibanez Vicente.Sangre y arena.pdf" target="_blank"> Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Cáceres, José Nuñez de.</td>
+      <td>La Lechuza y la Cigueña</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Caceres Jose Nuñez de.La lechuza y la cigüeña.pdf" target="_blank"> Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Cambaceres, Eugenio.</td>
+      <td>En la sangre</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Cambaceres Eugenio.En la sangre.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Cambaceres, Eugenio.</td>
+      <td>Música sentimental</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Cambaceres Eugenio.Musica sentimental.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Cambaceres, Eugenio.</td>
+      <td>Sin rumbo</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Cambaceres Eugenio.Sin rumbo.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Cané, Miguel.</td>
+      <td>En Viaje (1881-1882)</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Cane Miguel.En viaje (1881-1882).pdf" target="_blank"> Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Cané, Miguel.</td>
+      <td>Juvenilia</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Cane Miguel.Juvenilla.pdf" target="_blank">Leer</a></td>
+    </tr>
+    <tr>
+      <td>Cervantes Saavedra, Miguel.</td>
+      <td>Don Quijote</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Cervantes Saavedra Miguel.Don Quijote.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Darío, Rubén.</td>
+      <td>Canto a la Argentina</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Dario Ruben.Canto a la Argentina.pdf" target="_blank"> Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Darío, Rubén.</td>
+      <td>Cantos de vida y esperanza</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Dario Ruben.Cantos de vida y esperanza.pdf" target="_blank"> Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Darío, Rubén.</td>
+      <td>Prosas profanas</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Dario Ruben.Prosas profanas.pdf" target="_blank"> Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Darío, Rubén.</td>
+      <td>Yo persigo una forma</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Dario Ruben.Yo persigo una forma.pdf" target="_blank"> Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Dávalos. Juan Carlos.</td>
+      <td>Salta</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Davalos Juan Carlos.Salta.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Del Barco Centenera, Arcidiano D. Martin.</td>
+      <td>La Argentina</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Del barco centenera Arcidiano D. Martin.La Argentina.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Del Valle Inclan, Ramón.</td>
+      <td>Romance de Lobos</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Del Valle Inclan Ramon.Romance de lobos.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Del Valle Inclan, Ramón.</td>
+      <td>Sonata de Estío</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Del Valle-Inclan Ramon Maria.Sonata de estio.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Del Valle Inclan, Ramón.</td>
+      <td>Sonata de Invierno</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Del Valle-Inclan Ramon Maria.Sonata de invierno.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Del Valle Inclan, Ramón.</td>
+      <td>Sonata de Otoño</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Del Valle-Inclan Ramon Maria.Sonata de otono.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Del Valle Inclan, Ramón.</td>
+      <td>Sonata de Primavera</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Del Valle-Inclan Ramon Maria.Sonata de primavera.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Denis de Icaza, Amelia.</td>
+      <td>A la muerte de Victoriano Lorenzo</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Denis de Icaza Amelia.A la muerte de Victoriano Lorenzo.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Echeverría, Esteban.</td>
+      <td>La Cautiva</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Echeverria Esteban.La cautiva.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Espronceda José.</td>
+      <td>El Estudiante de Salamanca</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Espronceda Jose.El Estudiante de Salamanca.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>García Goyena, Rafael.</td>
+      <td>Los Animales Congregados en Cortes</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/García Goyena Rafael.Los animales congregados en Cortes.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>García, Gutierrez Antonio.</td>
+      <td>El Trovador</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Garcia Gutierrez Antonio.El Trovador.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Guiraldes, Ricardo.</td>
+      <td>Don Segundo Sombra</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Guiraldes Ricardo.Don Segundo Sombra.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Gutierrez, Eduardo.</td>
+      <td>Juan Moreira</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Gutierrez Eduardo.Juan Moreira.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Hernández, José.</td>
+      <td>El Gaucho Martin Fierro</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Hernandez Jose.El Gaucho Martin Fierro.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Hernández, José.</td>
+      <td>La Vuelta de Martin Fierro</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Hernandez Jose.La Vuelta de Martin Fierro.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Hidalgo, Bartolomé.</td>
+      <td>Un Gaucho de la Guardia del Monte</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Hidalgo Bartolome.Un Gaucho de la Guardia del Monte.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Huidobro, Vicente.</td>
+      <td>Arte poética</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Huidobro Vicente.Arte poética.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Iriarte, Tomás.</td>
+      <td>Fabulas Literarias</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Iriarte Tomas.Fabulas literarias.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Isaacs, Jorge.</td>
+      <td>María</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Isaacs Jorge.María.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Jimenez, Juan Ramón.</td>
+      <td>Platero y yo</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Jimenez Juan Ramon.Platero y yo.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Larra, Mariano José.</td>
+      <td>Fígaro</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Larra Mariano Jose.Figaro.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Larreta, Enrique.</td>
+      <td>La Gloria de Don Ramiro</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Larreta Enrique.La gloria de don Ramiro.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>López V, Lucio.</td>
+      <td>La Gran Aldea</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Lopez V. Lucio.La gran aldea.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Machado de Assis, Joaquim.</td>
+      <td>A carteira</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Machado de Assis Joaquim.A carteira.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Manrique, Jorge.</td>
+      <td>Coplas a la Muerte de su Padre</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Manrique Jorge.Coplas a la Muerte de su Padre.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Mármol, José</td>
+      <td>Amalia</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Marmol Jose.Amalia.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Martí, José.</td>
+      <td>Amistad Funesta</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Marti Jose.Amistad funesta.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Martí, José.</td>
+      <td>Cultivo una rosa blanca</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Marti Jose.Cultivo una rosa blanca.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Martí, José.</td>
+      <td>La niña de Guatemala</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Marti Jose.La niña de Guatemala.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Mitre, Bartolomé.</td>
+      <td>Rimas</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Mitre Bartolome.Rimas.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Molina, Juan Ramón.</td>
+      <td>Anhelo nocturno</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Molina Juan Ramon.Anhelo nocturno.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Palma, Ricardo.</td>
+      <td>Tradiciones Peruanas</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Palma Ricardo.Tradiciones peruanas.pdf" target="_blank">Leer</a></td>
+    </tr>
+    <tr>
+      <td>Pardo Bazan, Emilia.</td>
+      <td>Los Pazos de Ulloa</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Pardo Bazan Emilia.Los pazos de Ulloa.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Pardo Bazan, Emilia.</td>
+      <td>Un Viaje de Novios</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Pardo Bazan Emilia.Un viaje de Novios.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Payró, Roberto.</td>
+      <td>El casamiento de Laucha</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Payro Roberto.El casamiento de Laucha.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Perez de Ayala, Ramón.</td>
+      <td>Belarmino y Apolonio</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Perez de Ayala Ramon.Belarmino y Apolonio.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Pérez Galdós, Benito.</td>
+      <td>Fortunata y Jacinta</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Perez Galdos Benito.Fortunata y Jacinta.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Pérez Galdós, Benito.</td>
+      <td>La Desheredada</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Perez Galdos Benito.La desheredada.pdf" target="_blank">Leer</a></td>
+    </tr>
+    <tr>
+      <td>Pérez Galdós, Benito.</td>
+      <td>Marianela</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Perez Galdos Benito.Marianela.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Pérez Galdós, Benito.</td>
+      <td>Trafalgar</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Perez Galdos Benito.Trafalgar.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Quevedo, Francisco.</td>
+      <td>Historia de la Vida del Buscon</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Quevedo Francisco.Historia de la vida del Buscon.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Quintero, Joaquin Alvarez.</td>
+      <td>Doña Clarines y Mañana de Sol</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Quintero Joaquin Alvarez.Dona Clarines y Manana de Sol.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Quiroga, Horacio.</td>
+      <td>Cuentos de Amor de Locura y de Muerte</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Quiroga Horacio.Cuentos de Amor de Locura y de Muerte.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Rodo, José Enrique.</td>
+      <td>Ariel</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Rodo Jose Enrique.Ariel.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Rojas, Fernando.</td>
+      <td>La celestina</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Rojas Fernando.La celestina.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Ruiz de Alarcon, Juan.</td>
+      <td>Los favores del mundo</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Ruiz de Alarcon Juan.Los favores del mundo.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Ruiz, Juan.</td>
+      <td>Clasicos Castellanos</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Ruiz Juan.Clasicos Castellanos.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Ruiz Martinez, José.</td>
+      <td>Antonio Azorin</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Ruiz Martinez Jose.Antonio Azorin.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Samper, José María.</td>
+      <td>Viajes de un Colombiano en Europa</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Samper Jose Maria.Viajes de un Colombiano en Europa.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Samper, José María.</td>
+      <td>Viajes de un Colombiano en Europa II</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Samper Jose Maria.Viajes de un Colombiano en Europa II.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Sánchez, Florencio.</td>
+      <td>Barranca abajo</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Sanchez Florencio.Barranca abajo.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Sánchez, Florencio.</td>
+      <td>Canillita</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Sanchez Florencio.Canillita.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Sánchez, Florencio.</td>
+      <td>En Familia</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Sanchez Florencio.En Familia.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Sánchez, Florencio.</td>
+      <td>La gringa</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Sanchez Florencio.La gringa.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Sánchez, Florencio.</td>
+      <td>M'hijo el Dotor</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Sanchez Florencio.M'hijo el Dotor.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Sarmiento, Domingo Faustino.</td>
+      <td>Facundo</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Sarmiento Domingo Faustino.Facundo.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Unamuno, Miguel de.</td>
+      <td>Abel Sánchez</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Unamuno Miguel de.Abel Sánchez.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Unamuno, Miguel de.</td>
+      <td>Niebla</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Unamuno Miguel De.Niebla.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Unamuno, Miguel de.</td>
+      <td>La Tia Tula</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Unamuno Miguel.La Tia Tula.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Valera, Juan.</td>
+      <td>Juanita La Larga</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Valera Juan.Juanita La Larga.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Valera, Juan.</td>
+      <td>Pepita Jimenez</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Valera Juan.Pepita Jimenez.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Vallejo, César.</td>
+      <td>Los heraldos negros</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Vallejo Cesar.Los heraldos negros.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Vallejo, César.</td>
+      <td>Trilce</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Vallejo Cesar.Trilce.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Vega Carpio, Lope Félix.</td>
+      <td>Comedias</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Vega Carpio Lope Felix.Comedias.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Zamudio, Adela.</td>
+      <td>Nubes y viento</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Zamudio Adela.Nubes y viento.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    <tr>
+      <td>Zorrilla, José.</td>
+      <td>Don Juan Tenorio</td>
+      <td><a class="btn btn-info" href="./libros/Biblioteca Digital/iberoamericana/Zorrilla Jose.Don Juan Tenorio.pdf" target="_blank">Leer</a></td>  
+    </tr>
+    </tbody>
+    
+    </table>
+    </div>
+    <!-- /TABLA -->
+
+    <nav class="mt-5 mb-5">
+    <ul class="pagination justify-content-center pagination-lg">
+    <li class="page-item active" id="btn_1"><a class="page-link" href="#top">Ir Arriba</a></li>
+    </ul>
+    </nav>
+
+    <!-- FOOTER -->
+    <div class="container-fluid mt-5">
+      <div class="row">
+      <div class="col">
+      <img src="../img/footer.jpg" class="img-fluid">
+      </div>
+      </div>
+    </div>
+    <!-- /FOOTER -->
+
+  </body>
+</html>
